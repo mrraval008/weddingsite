@@ -1,5 +1,13 @@
 /* Contact Form validations start here  */
 (function ($) {
+	AOS.init({
+		duration: 800,
+		disable: 'mobile',
+		anchorPlacement: 'top-bottom'
+	  });
+	
+	  
+	  
 	'use strict';
 $( "#frm" ).submit(function( event ) {
 	

@@ -6,6 +6,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font: inherit;
 	vertical-align: baseline;
 }
+
+body{
+	/* background: url(images/images/WEDDING4.gif) no-repeat center center rgba(255,255,255,1); */
+	background:url('https://static1.squarespace.com/static/56c7ed02f8baf3ae17d0dd7c/t/5a81957671c10b61a512b80d/1518441853660/small-red-falling-hearts-pattern-animated-gif-2.gif?format=1500w');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	height: 100%;
+	background-size: cover;
+}
+::-webkit-scrollbar {
+    display: none
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #636e72; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #636e72; 
+}
 *, *::after, *::before {
 	box-sizing: border-box;
 }
@@ -119,7 +141,6 @@ input, textarea {
 	height: 4px;
 }
 .main-page-area {
-	overflow: hidden;
 	width: 100%;
 	height: 100%;
 }
@@ -256,7 +277,7 @@ input, textarea {
 	background-size: cover;
 }
 .bg-people {
-	background: url(../images/16-1.jpg) no-repeat;
+	background: url(../images/15-1.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -347,8 +368,8 @@ input, textarea {
 	width: 100%;
 }
 .page-scroll {
-	position: absolute;
-	top: 0px;
+	/* position: absolute;
+	top: 0px; */
 	height: 100%;
 	width: 100%;
 	overflow-y: auto;
@@ -357,7 +378,7 @@ input, textarea {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	padding-top: 84px;
+	padding-top: 20px;
 }
 .couple-name span {
 	font-size: 60px;
@@ -1503,10 +1524,38 @@ h2.resp-accordion:first-child {
 	margin-bottom: 20px;
 }
 .inner-data {
-	top: 27%;
+	top: 12%;
+}
+.gifts{
+	top: 20%;	
+}
+.home{
+	min-height: 625px;
+}
+.couple{
+	min-height: 900px;
+}
+.family{
+	min-height: 850px;
+}
+.wedding{
+	min-height: 800px;
+}
+.contact{
+	min-height: 800px;
 }
 .pt-page-4 .main-section-s2 {
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
+}
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }
 .responsive-margin-double {
 	margin-bottom: 40px;
@@ -1595,7 +1644,7 @@ h2.resp-accordion:first-child {
 	left: 48%;
 }
 .pt-page-8 .main-section-s2 {
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 .the-couple-img-hover a {
 	padding-top: 6px;
