@@ -47,9 +47,9 @@ $(document).on('ready', function () {
     // JavaScript Document
     var today = new Date();
 
-    var target = new Date(today);
-    target.setDate(51); // Set no. of days from today
-    target.setHours(0, 0, 0, 0);
+    var target = new Date("December 9, 2020 23:59:59");
+    // target.setDate(93); // Set no. of days from today
+    // target.setHours(0, 0, 0, 0);
 
     // Countdown start from yesterday
     var yesterday = new Date(today);
@@ -57,7 +57,7 @@ $(document).on('ready', function () {
     yesterday.setHours(0, 0, 0, 0);
     if ($.find('.countdown').length) {
         $('.countdown').final_countdown({
-            'start': yesterday.getTime() / 1000,
+            'start': today.getTime() / 1000,
             'end': target.getTime() / 1000,
             'now': today.getTime() / 1000
         }, function () {
@@ -80,7 +80,7 @@ $(document).on('ready', function () {
     /*Timer for wedding page*/
     if ($.find('#example').length) {
         $('#example').countdown({
-            date: '01/19/2017 23:59:59',
+            date: '12/09/2020 23:59:59',
             offset: 0,
             day: 'Day',
             days: 'Days'

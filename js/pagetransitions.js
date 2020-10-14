@@ -24,8 +24,8 @@ var PageTransitions = (function () {
             var $page = $(this);
 			
             $page.data('originalClassList', $page.attr('class'));
-			$(".page-top").addClass("display_none");
-			  $(".container-fluid").addClass("display_none");
+			// $(".page-top").addClass("display_none");
+			//   $(".container-fluid").addClass("display_none");
         });
 $pages.eq(current).find(".page-top").removeClass("display_none");
 		$pages.eq(current).find(".container-fluid").removeClass("display_none");
