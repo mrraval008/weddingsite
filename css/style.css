@@ -270,14 +270,14 @@ input, textarea {
 	top: 0px;
 }
 .bg-loveline {
-	background: url(../images/5.jpg) no-repeat;
+	background: url(../images/loveline.JPG) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 .bg-people {
-	background: url(../images/15-1.jpg) no-repeat;
+	background: url(../images/family.JPG) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -291,7 +291,7 @@ input, textarea {
 	background-size: cover;
 }
 .bg-gifts {
-	background: url(../images/13-1.jpg) no-repeat center center;
+	background: url(../images/gifts.JPG) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -305,7 +305,7 @@ input, textarea {
 	background-size: cover;
 }
 .bg-couple {
-	background: url(../images/1-1.jpg) no-repeat;
+	background: url(../images/couple.JPG) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
