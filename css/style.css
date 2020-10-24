@@ -1530,12 +1530,9 @@ h2.resp-accordion:first-child {
 	top: -8%;	
 }
 .gifts_section{
-    margin-left: 300px !important;
+    margin-top: 99px;
 }
-.qrcode{
-	height: 200px;
-    width: 200px;
-}
+
 .home{
 	min-height: 625px;
 }
